@@ -15,15 +15,15 @@ variable "ami_name" {
 
 variable "base_ami" {
   type    = string
-  default = "ami-087c17d1fe0178315"
+  default = "ami-0cff7528ff583bf9a"
 }
 
 variable "subnet_id" {
   type    = string
-  default = "subnet-ccfed3ed"
+  default = "subnet-00c00dcec5af557c1"
 }
 
 variable "security_group_id" {
   type    = string
-  default = "sg-914a0f8f"
+  default = "sg-03ddc1f18d1482a3a"
 }
